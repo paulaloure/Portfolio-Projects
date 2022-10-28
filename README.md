@@ -77,7 +77,7 @@ There is also no clear correlation between VEI and Max Plume height. The Plume h
 
 # Project 2: SQL - DVD RENTAL
 
-The aim of this project was data manibulationa and data analysis in PostgreSQL. Dataset used comes from Udemy course 'Become an expert at SQL!' and contains many tables, from which the following were used in this project: address, payment, film, inventory, actor, category. 
+The aim of this project was data manipulation and analysis in PostgreSQL. Dataset used comes from Udemy course 'Become an expert at SQL!' and contains many tables, from which the following were used in this project: address, payment, film, inventory, actor, category. 
 
 **Skills used: groupby, joins, mathematical and string operations, temporary tables, creating views**
 
