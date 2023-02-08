@@ -1,7 +1,3 @@
-# Paulina's Portfolio
-These are my portfolio projects presenting my skills in Python and SQL.
-
-
 # Project 1: PYTHON - VOLCANOES
 
 Project 'Volcanoes' contains the following steps:\
