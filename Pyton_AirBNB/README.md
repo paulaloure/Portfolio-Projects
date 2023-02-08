@@ -22,16 +22,27 @@ Based on the extracted data and analysis, the answer for the questions are as fo
 
 **1. What are the relationships between features? Are there any correlations??**
 	
-No correlation has been between the flat price and the number of reviews:
+No correlation has been between the flat price and the number of reviews:\
+![1](https://user-images.githubusercontent.com/96730074/217627440-60caa19d-cb5b-4265-a8ed-3151a466edc0.png)
 
 
-The eruptions that caused most Fatalities were:\
-![image](https://user-images.githubusercontent.com/96730074/197050964-d4fd0dec-b466-4e3f-8272-894eac058e94.png)
+We see also that the price can range from less than 100 USD to above 1000 USD:\
+![2](https://user-images.githubusercontent.com/96730074/217627705-7000b33e-dee1-4e90-afdd-76720765b052.png)
+
+The preferred quantity of nights spend is below 3 days or over 30 days:\
+![3](https://user-images.githubusercontent.com/96730074/217628332-552a66d6-ea6b-4213-bc88-3aa30db773e3.png)
 
 
+And the most frequent quantities of nights have also the highest amount of reviews:\
+![4](https://user-images.githubusercontent.com/96730074/217628639-6c6d371c-3964-4692-9f25-8bb0291f649e.png)
 
-The eruptions with biggest registered Plume height were:\
-![image](https://user-images.githubusercontent.com/96730074/197044007-7028115f-2a0c-4928-b8c7-0f9beb0d8e3f.png)
+Number of reviews doesn't depend on the price and the flat rating:\
+![5](https://user-images.githubusercontent.com/96730074/217628881-7fae5c61-980f-4f3b-9db4-bb48165f8dc0.png)
+
+The types of accomodation that are most common on airbnb in New York are entire flats/houses and private rooms:
+![7](https://user-images.githubusercontent.com/96730074/217629185-3a831f37-51d8-4bb5-8011-e58280071366.png)
+
+
 
 **2. What are the numbers of eruptions, fatalities caused by volcanic explosions and volcanic explosivity index (VEI) per continents and countries?**
 
