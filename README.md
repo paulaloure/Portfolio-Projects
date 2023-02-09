@@ -20,7 +20,6 @@ The goal of this project was to extract, merge and clean the data from wikipedia
 
 ![image](https://user-images.githubusercontent.com/96730074/197048646-2da98575-6ab2-43c8-ab82-31f4734f13a6.png)
 
-![image](https://user-images.githubusercontent.com/96730074/197048672-83d3c54d-427d-429a-b016-ad69fd59b158.png)
 
 
 
@@ -37,13 +36,14 @@ In the project the below question were answered:
 1. Which film categories are rented most often?
 2. Which films brought the highest income to the rental place?
 3. Which customer has the highest mean spend in the rental place?
+4. Which staff managed to earn more with rental per month in one year?
 
 Visualisation of the mean spend for the customers with id 1-99:
 
 ![graph_visualiser-1666979333244](https://user-images.githubusercontent.com/96730074/198700508-9f997b3b-6783-41e8-bbdd-574923c68e77.png)
 
 
-**4. Which staff managed to earn more with rental per month in one year?** 
+
 
 
 
@@ -68,4 +68,4 @@ The goal of this project was to import, review, transform and visualize data reg
 	3. Which hosts manage above 100 flats with the best ratings?\
 	4. Which type of room is the cheapest?\
  	5. Are newest flats the most expensive?
-
+![7](https://user-images.githubusercontent.com/96730074/217629185-3a831f37-51d8-4bb5-8011-e58280071366.png)
