@@ -1,7 +1,7 @@
 # Paulina's Portfolio
 These are my portfolio projects presenting my skills in Python and SQL.
 
-<a href="https://github.com/paulaloure/Portfolio-Projects/tree/main/Volcanoes" target="_blank"># Project 1: PYTHON - VOLCANOES</a>
+# Project 1: PYTHON - VOLCANOES - <a href="https://github.com/paulaloure/Portfolio-Projects/tree/main/Volcanoes" target="_blank">see the project</a>
 
 
 Project 'Volcanoes' contains the following steps:\
@@ -26,7 +26,7 @@ The goal of this project was to extract, merge and clean the data from wikipedia
 
 
 
-# Project 2: SQL - DVD RENTAL
+# Project 2: SQL - DVD RENTAL - <a href="https://github.com/paulaloure/Portfolio-Projects/tree/main/SQL%20-%20DVD%20rental" target="_blank">see the project</a>
 
 The aim of this project was data manipulation and analysis in PostgreSQL. Dataset used comes from Udemy course 'Become an expert at SQL!' and contains many tables, from which the following were used in this project: address, payment, film, inventory, actor, category. 
 
@@ -50,7 +50,7 @@ Visualisation of the mean spend for the customers with id 1-99:
 
 
 
-# Project 3: PYTHON - Airbnb New York data
+# Project 3: PYTHON - Airbnb New York data - <a href="https://github.com/paulaloure/Portfolio-Projects/tree/main/Pyton_AirBNB" target="_blank">see the project</a>
 
 This project contains the following steps:\
 **PART 1:** Importing data\
