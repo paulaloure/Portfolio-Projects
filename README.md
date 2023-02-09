@@ -1,8 +1,8 @@
 # Paulina's Portfolio
 These are my portfolio projects presenting my skills in Python and SQL.
 
-<a href="https://www.google.com/" target="_blank">Google</a>
-# Project 1: PYTHON - VOLCANOES
+<a href="https://github.com/paulaloure/Portfolio-Projects/tree/main/Volcanoes" target="_blank"># Project 1: PYTHON - VOLCANOES</a>
+
 
 Project 'Volcanoes' contains the following steps:\
 **PART 1:** Data extracting from wikipedia\
