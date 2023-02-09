@@ -15,23 +15,21 @@ The goal of this project was to import, review, transform and visualize data reg
 	2. Which are the locations with the cheapest/most expensive apartments?\
 	3. Which hosts manage above 100 flats with the best ratings?\
 	4. Which type of room is the cheapest?\
-  5. Are newest flats the most expensive?
+ 	5. Are newest flats the most expensive?
 
 Based on the extracted data and analysis, the answer for the questions are as follows:
 
 
-**1. What are the relationships between features? Are there any correlations??**
+**1. What are the relationships between features? Are there any correlations?**
 	
-No correlation has been between the flat price and the number of reviews:\
+As shown on the below graph, there is no correlation between the flat price and the number of reviews:\
 ![1](https://user-images.githubusercontent.com/96730074/217627440-60caa19d-cb5b-4265-a8ed-3151a466edc0.png)
-
 
 We see also that the price can range from less than 100 USD to above 1000 USD:\
 ![2](https://user-images.githubusercontent.com/96730074/217627705-7000b33e-dee1-4e90-afdd-76720765b052.png)
 
 The preferred quantity of nights spend is below 3 days or over 30 days:\
 ![3](https://user-images.githubusercontent.com/96730074/217628332-552a66d6-ea6b-4213-bc88-3aa30db773e3.png)
-
 
 And the most frequent quantities of nights have also the highest amount of reviews:\
 ![4](https://user-images.githubusercontent.com/96730074/217628639-6c6d371c-3964-4692-9f25-8bb0291f649e.png)
@@ -44,39 +42,30 @@ The types of accomodation that are most common on airbnb in New York are entire 
 
 
 
-**2. What are the numbers of eruptions, fatalities caused by volcanic explosions and volcanic explosivity index (VEI) per continents and countries?**
+**2. What are the locations with the most expensive apartments?**
 
-Statistics per continents:\
-![image](https://user-images.githubusercontent.com/96730074/197044243-c2aca8e3-d12a-48a9-a9a1-5fbbe40042b0.png)
-
-
-Statistics per countries:\
-![image](https://user-images.githubusercontent.com/96730074/197044404-d2748a3d-a17f-4ef2-8724-66cc0e09209d.png)
-
-**3. Does the amount of eruptions change with time?**\
-![image](https://user-images.githubusercontent.com/96730074/197045717-1725feea-497f-40a8-a144-f81efa8ccf9f.png)
-
-Histogram above shows larger number of volcanic eruptions in the last 30 years. This doesn't mean that the eruptions are more frequent. 
-The larger amount of eruptions is first of all due to increased tracking and recording of every single eruption, which was not properly tracked in the past. Secondly it is because of globalisation and posibility to track even smallest events in every part of the world, including the most remote areas.
-
-**4. Does the Max Plume Heigt or Fatalities number correlate with the explosions strength (VEI)?**
+Below locations have the highest prices of flats, which reach over 800 USD per night:
+![8](https://user-images.githubusercontent.com/96730074/217888684-2f044a25-866d-445e-b799-f82b1963e83a.png)
 
 
-![image](https://user-images.githubusercontent.com/96730074/197048530-8ddf736c-25e8-47d1-a3b8-751bdc5c62bb.png)
+**3. Which hosts that have more than 100 flats, has the best rating?**\
+
+![9](https://user-images.githubusercontent.com/96730074/217888952-d674bc58-d030-434d-ae62-b34545a56435.png)
 
 
-The graph doesn't show the correlation between Volcanic Explosivity Index and Fatalities. Significant number of fatalities was recorded for eruptions of VEI equals to 3-6. The number of fatalities doesn't depend on how strong is the eruption, but rather on it's proximity to big cities and highly populated areas.\
+**4. Which type of room is the cheapest?**
 
-![image](https://user-images.githubusercontent.com/96730074/197048593-ecf2d89c-4e97-4316-91ec-9833316bdc55.png)
-
-There is also no clear correlation between VEI and Max Plume height. The Plume heigh depends not only on the strength of eruption, but also on it's type. The plume height is the biggest during the most explosive eruptions (in contrary to the effusive eruptions) and the column of volcanic materials can reach over 40 km.
+It turned out, that hotel rooms are statistically more expensive than rented flats or rooms. The cheapest option is shared room, however the difference between shared room, private room and entire apartment or house is not large:
 
 
-**5. Where are located the highest volcanoes or volcanoes of certain type?**
+![10](https://user-images.githubusercontent.com/96730074/217889625-d25b6adc-2bdf-454e-9cfd-ad11aa7d6898.png)
 
-![image](https://user-images.githubusercontent.com/96730074/197048646-2da98575-6ab2-43c8-ab82-31f4734f13a6.png)
+**5. Are newest flats the most expensive?**
 
-![image](https://user-images.githubusercontent.com/96730074/197048672-83d3c54d-427d-429a-b016-ad69fd59b158.png)
+According to the below graph, the construction year does not impact the apartment price. It may be due to the fact that the older appartments indicate the construction year of 2003, so still are relatively new:
+![11](https://user-images.githubusercontent.com/96730074/217890145-ba5a2f12-f4f0-422c-a378-ee918d2fef15.png)
+
+
 
 
 
