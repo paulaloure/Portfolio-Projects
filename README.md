@@ -68,4 +68,6 @@ The goal of this project was to import, review, transform and visualize data reg
 	3. Which hosts manage above 100 flats with the best ratings?\
 	4. Which type of room is the cheapest?\
  	5. Are newest flats the most expensive?\
-![7](https://user-images.githubusercontent.com/96730074/217629185-3a831f37-51d8-4bb5-8011-e58280071366.png)
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/96730074/217895856-c393d145-030d-4a3c-a5ed-4e0a48340753.png" />
+</p>
