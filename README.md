@@ -106,8 +106,10 @@ Based on the analysis we can see that the most attacted body part is leg
 </p>
 
 ... and, that men are attacked more often than women:
-<p align="right">
+<p align="center">
   <img src="https://user-images.githubusercontent.com/96730074/227603682-66696317-af2c-40f5-ab0d-4ab890c490c8.png" />
+</p>
+<p align="center">
   <img src="https://user-images.githubusercontent.com/96730074/227604264-e406ef76-dce8-4772-a491-0cb21f7b4f33.png" /> 
 </p>
 
