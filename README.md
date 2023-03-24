@@ -62,12 +62,54 @@ This project contains the following steps:\
 
 **Library used: NumPy, Pandas, Seaborn, MatPlotLib**
 
-The goal of this project was to import, review, transform and visualize data regarding Airbnb flats in New York. In this project I tried to answer the below questions:
+The goal of this project was to import, review, transform and visualize data regarding Airbnb flats in New York. In this project I tried to answer the below questions:\
 	1. What are the relationships between features? Are there any correlations?\
 	2. Which are the locations with the cheapest/most expensive apartments?\
 	3. Which hosts manage above 100 flats with the best ratings?\
 	4. Which type of room is the cheapest?\
- 	5. Are newest flats the most expensive?\
+ 	5. Are newest flats the most expensive?
 <p align="center">
   <img src="https://user-images.githubusercontent.com/96730074/217895856-c393d145-030d-4a3c-a5ed-4e0a48340753.png" />
 </p>
+
+
+
+
+# Project 4: SQL - Shark Attacks  - <a href="https://github.com/paulaloure/Portfolio-Projects/tree/main/SQL%20-%20SharkAttacks" target="_blank">see the project</a>
+
+The aim of this project was data cleaning and exploratory analysis in PostgreSQL. I have used the real data regarding shark attacks over the world, analysing among others the attacks caused by various shark species, injuries in various body parts and in many countries 
+
+**Skills used: group by, partition by, CTE, subqueries, mathematical and string operations, regex**
+
+Project consist of 3 parts:
+
+**PART 1: Creating the table** \
+**PART 2: Cleaning the data** \
+**PART 3: Data analysis** 
+
+In data analysis part I have answered the below questions:
+1. Which of the states in US have the higher amount of shark attacks?
+2. What is the percentage of attacks between men and women based on the available data?
+3. Which of the US states has the higher rate of fatal attacts with regard to all attacks?
+4. What is the percentage of fatal attacts between man and woman?
+5. What percentage of all fatal attacks were provoked?
+6. Is there a region where attacks by some shark species are most common than by the others?
+7. Which shark species attack more often?
+8. Which shark species are the most deadly?
+9. Which body part is attacked by sharks the most often?
+10. Is there any shark than attacked most time different body part than leg?
+11. What are the activities with the highest ratio of fatal attacks?
+Based on the analysis we can see that the most attacted body part is leg
+<p align="right">
+  <img src="https://user-images.githubusercontent.com/96730074/227603632-ed91d306-b5d9-47e5-8278-cdd7210ddb57.png" /> 
+  <img src="https://user-images.githubusercontent.com/96730074/227333305-40331ab5-f8aa-46f3-8b7d-afafd36d8070.png" />
+</p>
+
+... and, that men are attacked more often than women:
+<p align="right">
+  <img src="https://user-images.githubusercontent.com/96730074/227603682-66696317-af2c-40f5-ab0d-4ab890c490c8.png" />
+  <img src="https://user-images.githubusercontent.com/96730074/227604264-e406ef76-dce8-4772-a491-0cb21f7b4f33.png" /> 
+</p>
+
+
+
