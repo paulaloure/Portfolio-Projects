@@ -1,5 +1,12 @@
 import schedule
 import time
+import os
+from dotenv import load_dotenv
+
+
+#to load secret key from .ENV file
+def configure():
+    load_dotenv()
 
 
 def change_time_format(time_in_seconds):
@@ -36,6 +43,9 @@ if __name__ == '__main__':
     #schedule.every().monday.at('15:00:00').do(get_YT_data)
     schedule.every(5).seconds.do(get_YT_data)
     #here the function that should run:
+
+    #loading .ENV file with secret key
+    configure() 
     #running scheduled tasks
     while True:
         schedule.run_pending()
