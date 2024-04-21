@@ -20,7 +20,7 @@ def change_time_format(time_in_seconds):
 
 
 
-# if I run this script, only main will run!
+# if I run this script, only main will run
 def get_YT_data():
     start_time = time.time()
     print('Task has started')
@@ -36,8 +36,6 @@ def get_YT_data():
 
 
 
-
-#tracking the program running times:
 if __name__ == '__main__': 
     #scheduling the task
     #schedule.every().monday.at('15:00:00').do(get_YT_data)
