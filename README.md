@@ -98,7 +98,8 @@ In data analysis part I have answered the below questions:
 8. Which shark species are the most deadly?
 9. Which body part is attacked by sharks the most often?
 10. Is there any shark than attacked most time different body part than leg?
-11. What are the activities with the highest ratio of fatal attacks?
+11. What are the activities with the highest ratio of fatal attacks? \
+    
 Based on the analysis we can see that the most attacted body part is leg
 <p align="center">
   <img src="https://user-images.githubusercontent.com/96730074/227603632-ed91d306-b5d9-47e5-8278-cdd7210ddb57.png" /> 
