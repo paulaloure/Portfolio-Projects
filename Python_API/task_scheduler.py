@@ -1,4 +1,4 @@
-import schedule
+import schedule #install in venv
 import time
 import os
 from dotenv import load_dotenv
