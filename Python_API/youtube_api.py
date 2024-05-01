@@ -48,11 +48,11 @@ def api_requests_playlistItems():
     request = youtube.playlistItems().list(
         part = 'contentDetails',
         playlistId = api_request_channel()['uploads_playlist_id'],
-        maxResults = '2'
+        maxResults = '50'
     )
     playlistItems_response = request.execute()
     next_page_Token = playlistItems_response['nextPageToken']
-
+    
     # for i in playlistItems_response['items']:
     #     print(playlistItems_response['items'][0]['contentDetails']['videoId'])
     #     print('-----')
@@ -61,13 +61,16 @@ def api_requests_playlistItems():
 
 
     # STOPPED HERE
-    #iterate through the items
-    for i in range()
+    #iterate through the items - ADD THE TOKEN PAGE TO ITERATE THROU MORE THAN 50
+    i = 0
+    video_id_list = []
     for k in playlistItems_response['items']:
-        print(playlistItems_response['items'][0]['contentDetails']['videoId'])
-        # print(v)
-        print('---')
-    #contentDetails - video ID
+        video_id = playlistItems_response['items'][i]['contentDetails']['videoId']
+        video_id_list.append(video_id)
+        i += 1
+    print(video_id_list)
+
+
 
 def api_request_videos():
 
