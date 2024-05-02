@@ -13,9 +13,8 @@ def get_videos():
     api_key = os.getenv('api_key')
     global youtube
     youtube = build('youtube','v3', developerKey=api_key)
-    # api_request_channel()
-    api_requests_playlistItems()
-    #api_request_videos()
+    api_request_channel()
+
 
 
 
@@ -39,26 +38,16 @@ def api_request_channel():
         'subscriber_count': channel_response['items'][0]['statistics']['subscriberCount'],
         'video_count': channel_response['items'][0]['statistics']['videoCount']
     }
-    return channel_details
-
-
-
-def api_requests_playlistItems():
      #defining the service:
     request = youtube.playlistItems().list(
         part = 'contentDetails',
-        playlistId = api_request_channel()['uploads_playlist_id'],
-        maxResults = '50'
+        playlistId = channel_details['uploads_playlist_id'],
+        maxResults = '5'
     )
     playlistItems_response = request.execute()
+
     next_page_Token = playlistItems_response['nextPageToken']
     
-    # for i in playlistItems_response['items']:
-    #     print(playlistItems_response['items'][0]['contentDetails']['videoId'])
-    #     print('-----')
-    # video_id = playlistItems_response['items'][0]['contentDetails']['videoId']
-    # print(video_id)
-
 
     # STOPPED HERE
     #iterate through the items - ADD THE TOKEN PAGE TO ITERATE THROU MORE THAN 50
@@ -68,23 +57,22 @@ def api_requests_playlistItems():
         video_id = playlistItems_response['items'][i]['contentDetails']['videoId']
         video_id_list.append(video_id)
         i += 1
-    print(video_id_list)
+    # print(video_id_list)
 
-
-
-def api_request_videos():
 
     #defining the service:
     request = youtube.videos().list(
-        part = 'snippet, contentDetails, statistics',
-        id = 'kRUz_gaUJSo'
+        part = 'snippet',
+        id = video_id_list
     )
     # snippet - contains title:'snippet': {'title':'Jak teorie spiskowe niszczą ludzi'}
     # contentDetails - contains lenght
     # statistics - contains views, likes, comments
-
-    response = request.execute()
-    print(response)
+    j=0
+    video_response = request.execute()
+    for video in video_response['items']:
+        print(video_response['items'][j]['snippet']['title'])
+        j +=1
 
 if __name__ == '__main__':
     get_videos()
