@@ -15,7 +15,8 @@ def get_videos():
     api_key = os.getenv('api_key')
     global youtube
     youtube = build('youtube','v3', developerKey=api_key)
-    api_request_channel()
+    a = api_request_channel()
+    return a
 
 
 
@@ -39,7 +40,7 @@ def api_request_channel():
         'video_count': channel_response['items'][0]['statistics']['videoCount']
     }
      #defining the service:
-    vidoes_details_list = []
+    videos_details_list = []
     next_Page_Token = None
     while True:
         request = youtube.playlistItems().list(
@@ -49,9 +50,6 @@ def api_request_channel():
             pageToken = next_Page_Token
         )
         playlistItems_response = request.execute()
-
-
-        
 
         i = 0
         video_id_list = []
@@ -95,13 +93,15 @@ def api_request_channel():
             }
             # print(video_details)
             # print()
-            vidoes_details_list.append(video_details)
+            videos_details_list.append(video_details)
 
-        next_Page_Token = playlistItems_response.get('nextPageToken')
+        next_Page_Token = playlistItems_response.get('nextPageToken')   
         if not next_Page_Token:
             break
- 
-    print(len(vidoes_details_list))        
+        # print(videos_details_list)
+    return videos_details_list 
+         
 
 if __name__ == '__main__':
-    get_videos()
+    a = get_videos()
+    print("Returned value is:", a)
