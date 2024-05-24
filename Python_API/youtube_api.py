@@ -87,9 +87,9 @@ def api_request_channel():
                 'video_published_date': video_published_date,
                 'video_published_time': video_published_time,
                 'video_duration': str(video_duration_hours)+ ":"+ str(video_duration_minutes) + ':' + str(video_duration_seconds),
-                'video_views': video['statistics']['viewCount'],
-                'video_likes': video['statistics']['likeCount'],
-                'video_comments': video_comments
+                'video_views': int(video['statistics']['viewCount']),
+                'video_likes': int(video['statistics']['likeCount']),
+                'video_comments': int(video_comments)
             }
             # print(video_details)
             # print()

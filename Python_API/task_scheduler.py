@@ -33,6 +33,11 @@ def convert_to_df(video_data):
     videos_table = pd.DataFrame(video_data)
     return videos_table
 
+# def save_df_to_excel(df_videos):
+#     file_name = "Youtube_videos.xlsx"
+#     df_videos.to_excel(file_name)
+
+
 
 def export_videos():
     start_time = time.time()
@@ -42,21 +47,25 @@ def export_videos():
     duration = stop_time - start_time
     print(change_time_format(duration)) #printing how much time task took to complete
     # print(video_data)
-    a = convert_to_df(video_data)
-    print(a)
+    df_videos = convert_to_df(video_data)
     print("Export completed")
+    return df_videos
 
 
-export_videos()
 
 
 
-# if __name__ == '__main__': 
-#     #scheduling the task
-#     #schedule.every().monday.at('15:00:00').do(get_YT_data)
-#     schedule.every(5).seconds.do(export_videos)
 
-#     #running scheduled tasks
-#     while True:
-#         schedule.run_pending()
-#         time.sleep(1)
+if __name__ == '__main__': 
+    #scheduling the task
+    #schedule.every().monday.at('15:00:00').do(get_YT_data)
+    df_videos = export_videos()
+    file_name = "Youtube_videos.xlsx"
+    df_videos.to_excel(file_name)
+    # save_df_to_excel(df_videos)
+    # schedule.every(5).hours.do(save_df_to_excel, df_videos)
+
+    # #running scheduled tasks
+    # while True:
+    #     schedule.run_pending()
+    #     time.sleep(1)
