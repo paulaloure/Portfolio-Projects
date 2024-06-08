@@ -1,2 +1,8 @@
 #ignore .env file with secret key
 .env
+
+#ignore all other created xlsx exports:
+.xlsx
+#except of the 2 that are added as an example:
+!Youtube_channel_details_2024-06-08_04-57.xlsx
+!Youtube_videos_details_2024-06-08_04-57.xlsx
