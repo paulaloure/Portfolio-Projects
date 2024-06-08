@@ -34,7 +34,7 @@ The data may be used for further analysis of channel statistics, such as:
 **How to run on your machine**
 
 1. Clone or download the source code
-2. Make sure to create your API key here: console.cloud.google.com 
+2. Make sure to create your API key here:[ console.cloud.google.com](https://console.cloud.google.com/) 
 2. Save your API key to .env file as api_key (.env file is included in .gitignore file)
 3. Install Google API Client by following (for Mac/Linux/Windows): https://github.com/googleapis/google-api-python-client
 4. Run 'main.py' file 

@@ -8,7 +8,7 @@ This project contains the following steps:\
 **PART 5:** Feature relationship\
 **PART 6:** Questions
 
-**Library used: NumPy, Pandas, Seaborn, MatPlotLib**
+**Libraries used: NumPy, Pandas, Seaborn, MatPlotLib**
 
 The goal of this project was to import, review, transform and visualize data regarding Airbnb flats in New York. In this project I tried to answer the below questions:
 	1. What are the relationships between features? Are there any correlations?\
