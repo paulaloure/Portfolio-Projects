@@ -1,4 +1,4 @@
-#ignore .env file with secret key
+#ignore .env file with secret key and database details
 .env
 
 #ignore all other created xlsx exports:
@@ -7,5 +7,5 @@
 !Youtube_channel_details_2024-06-08_04-57.xlsx
 !Youtube_videos_details_2024-06-08_04-57.xlsx
 
-#__pycache folder:
+#ignore __pycache folder:
 __pycache__/
