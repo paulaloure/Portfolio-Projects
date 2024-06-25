@@ -65,6 +65,7 @@ def export_videos():
     start_time = time.time()
     engine = connect_to_db()
     save_data(engine)
+    engine.dispose()
     stop_time = time.time()
     duration = stop_time - start_time
     print("Task completed successfully")
