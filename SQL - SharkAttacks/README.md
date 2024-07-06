@@ -1,4 +1,4 @@
-# Project 4: SQL - Shark Attacks
+# Project 5: SQL - Shark Attacks
 
 The aim of this project was data cleaning and exploratory analysis in PostgreSQL. I have used the real data regarding shark attacks over the world, analysing among others the attacks caused by various shark species, injuries in various body parts and in many countries 
 
