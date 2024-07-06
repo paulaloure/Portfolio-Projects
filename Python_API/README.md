@@ -11,6 +11,8 @@ This project contains the following steps:
 
 **Libraries used: GoogleAPIClient, Pandas, DateTime, Dotenv**
 
+<br>
+<br>
 
 **Main Goal**
 
@@ -21,7 +23,8 @@ The goal of this project was to download the list of all videos from a youtube c
  - What are best perofrming videos in terms of views, likes and comments?
  - What is the viewers engagement? Does higher number of views translates to higher number of likes and comments?
 
-
+<br>
+<br>
 
 **Steps**
 
@@ -37,7 +40,8 @@ As many pages were returned, the script loops over all of them using page tokens
 
 
 2. I have created a PostgreSQL database and 2 tables with in to load data for channel and for videos:
-
+<br>
+<pre>
 CREATE TABLE channel_details (
 	id SERIAL PRIMARY KEY,
 	channels_name VARCHAR(50) NOT NULL,
@@ -48,8 +52,8 @@ CREATE TABLE channel_details (
 	video_count VARCHAR(50),
 	created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
 );
-
-
+</pre>
+<pre>
 CREATE TABLE videos_details (
 	id SERIAL PRIMARY KEY,
 	video_title VARCHAR(100) NOT NULL,
@@ -60,7 +64,7 @@ CREATE TABLE videos_details (
 	video_likes INT,
 	video_comments INT
 );
-
+</pre>
 
 3. Data was loaded to the SQL database as well as saved them to excel files with timestamps. The downloaded data contains below details (example excel files can be found in this repository):
  - Youtube_channel_details - with details regarding the youtube channel:
@@ -79,9 +83,13 @@ CREATE TABLE videos_details (
     - likes
     - comments
 
-  3. Next, I have used PowerBI to connect with the SQL Database and load the data. I have transformed the data using PowerQuery and created the PowerBI dashboard that aimed to answer the above questions. 
+  4. Next, I have used PowerBI to connect with the SQL Database and load the data. I have transformed the data using PowerQuery and created the PowerBI dashboard that aimed to answer the above questions. 
+<br>
+<br>
 
 **Results** 
 
 As a result, the below PowerBI dashboad was created. The .pbix file can also be found in the project folder.
+<br>
+<br>
 ![Screenshot 2024-07-06 115935](https://github.com/paulaloure/Portfolio-Projects/assets/96730074/f2199ce9-0e87-40dc-bbc7-cb0b7f3ddef9)
