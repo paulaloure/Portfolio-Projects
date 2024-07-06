@@ -28,9 +28,41 @@ The goal of this project was to download the list of all videos from a youtube c
 ![Dodaj nagłówek (4)](https://github.com/paulaloure/Portfolio-Projects/assets/96730074/a41cd59a-9ad3-47e6-982a-434b5662bc8e)
 
 
-1. Data was downloaded from Youtube using Youtube API, from the collections channel, playlistItems and videos. As many pages were returned, the script loops over all of them using page tokens.
+1. Data was downloaded from Youtube using Youtube API (googleapiclient library). In order to connect to Youtube API I have created an API key and saved it to .env file.
+I have created API request to connect with the below collections:
+   - channel - to get the uploads playlist ID (playlist with all the videos uploaded to the channel) and other channel statistics    
+   - playlistItems - to get IDs of every video from uploads playlist
+   - videos - to get video details
+As many pages were returned, the script loops over all of them using page tokens. Returned data was saved as a dataframe.
 
-2. I have created a PostgreSQL database to load the videos data, as well as saved them to excel files with timestamps. The downloaded data contains below details (example excel files can be found in this repository):
+
+2. I have created a PostgreSQL database and 2 tables with in to load data for channel and for videos:
+
+CREATE TABLE channel_details (
+	id SERIAL PRIMARY KEY,
+	channels_name VARCHAR(50) NOT NULL,
+	channel_id VARCHAR(50),
+	uploads_playlist_id VARCHAR(50),
+	view_count VARCHAR(50),
+	subscriber_count VARCHAR(50),
+	video_count VARCHAR(50),
+	created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
+);
+
+
+CREATE TABLE videos_details (
+	id SERIAL PRIMARY KEY,
+	video_title VARCHAR(100) NOT NULL,
+	video_published_date DATE,
+	video_published_time TIME,
+	video_duration TIME,
+	video_views INT,
+	video_likes INT,
+	video_comments INT
+);
+
+
+3. Data was loaded to the SQL database as well as saved them to excel files with timestamps. The downloaded data contains below details (example excel files can be found in this repository):
  - Youtube_channel_details - with details regarding the youtube channel:
     - channel name
     - channel id
