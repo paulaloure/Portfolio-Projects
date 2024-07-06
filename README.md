@@ -12,11 +12,11 @@ Below, you can find my portfolio projects showcasing my expertise in SQL and Pyt
 
 # Project 1: PYTHON - YOUTUBE API - <a href="https://github.com/paulaloure/Portfolio-Projects/tree/main/Python_API" target="_blank">see the project</a>
 
-This project contains the following steps:\
+This project contains the following steps:
 
 **PART 1:** Connecting to Youtube API and extracting videos information\
-**PART 2:** Saving channel and video information to excel and loading to the SQL Database
-**PART 3:** Connecting PowerBI Desktop to the SQL database, loading and transforming data in PowerQuery
+**PART 2:** Saving channel and video information to excel and loading to the SQL Database\
+**PART 3:** Connecting PowerBI Desktop to the SQL database, loading and transforming data in PowerQuery\
 **PART 4:** Creating PowerBI Dashboard
 
 
@@ -25,6 +25,7 @@ This project contains the following steps:\
 
 
 **Main Goal**
+
 The goal of this project was to download the list of all videos from a youtube channel with their details, and create PowerBI dashboard based on the data. The dashboard would aim to answer below questions:
  - How many views/subscribes the channel has and how far it is from reaching next benchmark?
  - Videos posted on which weekdays have most views?
@@ -33,7 +34,9 @@ The goal of this project was to download the list of all videos from a youtube c
  - What is the viewers engagement? Does higher number of views translates to higher number of likes and comments?
 
 
+
 **Steps**
+
 ![Dodaj nagłówek (4)](https://github.com/paulaloure/Portfolio-Projects/assets/96730074/a41cd59a-9ad3-47e6-982a-434b5662bc8e)
 
 
@@ -41,7 +44,8 @@ Data was downloaded from Youtube using Youtube API, from the collections channel
 
 I have created a PostgreSQL database to load the videos data, as well as saved them to excel files with timestamps.
 
-As a result, 2 excel files are created (examples can be found in this repository):
+
+2 excel files are created (examples can be found in this repository):
  - Youtube_channel_details - with details regarding the youtube channel:
     - channel name
     - channel id
@@ -60,7 +64,8 @@ As a result, 2 excel files are created (examples can be found in this repository
 
   Next, I have used PowerBI to connect with the SQL Database and load the data. I have transformed the data using PowerQuery and created the PowerBI dashboard that aimed to answer the above questions. 
 
-**Results**
+**Results** 
+
 As a result, the below PowerBI dashboad was created. The .pbix file can also be found in the project folder.
 ![Screenshot 2024-07-06 115935](https://github.com/paulaloure/Portfolio-Projects/assets/96730074/f2199ce9-0e87-40dc-bbc7-cb0b7f3ddef9)
 
