@@ -60,6 +60,9 @@ As a result, 2 excel files are created (examples can be found in this repository
 
   Next, I have used PowerBI to connect with the SQL Database and load the data. I have transformed the data using PowerQuery and created the PowerBI dashboard that aimed to answer the above questions. 
 
+**Results**
+As a result, the below PowerBI dashboad was created. The .pbix file can also be found in the project folder.
+![Screenshot 2024-07-06 115935](https://github.com/paulaloure/Portfolio-Projects/assets/96730074/f2199ce9-0e87-40dc-bbc7-cb0b7f3ddef9)
 
 
 
