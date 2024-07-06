@@ -1,14 +1,19 @@
 # Paulina's Portfolio
-
+<br>
 Hi there!
-
-Welcome to my portfolio page. My name is Paulina, and I've been working with data since May 2023. However, my journey with data began already during my university studies, where I developed skills in loading, transforming, and visualizing various kinds of data.
-
+<br>
+<br>
+Welcome to my portfolio page. <br>
+My name is Paulina, and I've been working with data since May 2023. However, my journey with data began already during my university studies, where I developed skills in loading, transforming, and visualizing various kinds of data.
+<br>
+<br>
 I am passionate about lifelong learning and continually strive to develop my skills. I enjoy exploring new technologies, solving complex problems, and applying innovative solutions to real-world challenges. In my free time, you can find me at the gym or walking in the park, as I believe that a healthy body is essential for a healthy and focused mind.
-
+<br>
+<br>
 Below, you can find my portfolio projects showcasing my expertise in SQL and Python:
-
-
+<br>
+<br>
+<br>
 
 # Project 1: PYTHON - YOUTUBE API - <a href="https://github.com/paulaloure/Portfolio-Projects/tree/main/Python_API" target="_blank">see the project</a>
 
@@ -33,12 +38,13 @@ The goal of this project was to download the list of all videos from a youtube c
  - What are best perofrming videos in terms of views, likes and comments?
  - What is the viewers engagement? Does higher number of views translates to higher number of likes and comments?
 
-
+<br>
 
 **Steps**
 
 ![Dodaj nagłówek (4)](https://github.com/paulaloure/Portfolio-Projects/assets/96730074/a41cd59a-9ad3-47e6-982a-434b5662bc8e)
 
+<br>
 
 **Results** 
 
@@ -48,6 +54,9 @@ As a result, the below PowerBI dashboad was created. The .pbix file can also be 
 
 
 
+<br>
+<br>
+<br>
 
 # Project 2: PYTHON - VOLCANOES - <a href="https://github.com/paulaloure/Portfolio-Projects/tree/main/Volcanoes" target="_blank">see the project</a>
 
@@ -69,10 +78,9 @@ The goal of this project was to extract, merge and clean the data from wikipedia
 ![image](https://user-images.githubusercontent.com/96730074/197048646-2da98575-6ab2-43c8-ab82-31f4734f13a6.png)
 
 
-
-
-
-
+<br>
+<br>
+<br>
 
 # Project 3: SQL - DVD RENTAL - <a href="https://github.com/paulaloure/Portfolio-Projects/tree/main/SQL%20-%20DVD%20rental" target="_blank">see the project</a>
 
@@ -92,11 +100,9 @@ Visualisation of the mean spend for the customers with id 1-99:
 
 
 
-
-
-
-
-
+<br>
+<br>
+<br>
 
 # Project 4: PYTHON - Airbnb New York data - <a href="https://github.com/paulaloure/Portfolio-Projects/tree/main/Pyton_AirBNB" target="_blank">see the project</a>
 
@@ -122,6 +128,9 @@ The goal of this project was to import, review, transform and visualize data reg
 
 
 
+<br>
+<br>
+<br>
 
 # Project 5: SQL - Shark Attacks  - <a href="https://github.com/paulaloure/Portfolio-Projects/tree/main/SQL%20-%20SharkAttacks" target="_blank">see the project</a>
 
