@@ -26,10 +26,14 @@ The goal of this project was to download the list of all videos from a youtube c
 <br>
 <br>
 
-**Steps**
+**High level design**
 
 ![Dodaj nagłówek (4)](https://github.com/paulaloure/Portfolio-Projects/assets/96730074/a41cd59a-9ad3-47e6-982a-434b5662bc8e)
 
+<br>
+<br>
+
+**Steps**
 
 1. Data was downloaded from Youtube using Youtube API (googleapiclient library). In order to connect to Youtube API I have created an API key and saved it to .env file.
 I have created API request to connect with the below collections:
