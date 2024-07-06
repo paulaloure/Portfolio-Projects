@@ -5,7 +5,8 @@ Hi there!
 <br>
 Welcome to my portfolio page. <br>
 My name is Paulina, and I've been working with data since May 2023. However, my journey with data began already during my university studies, where I developed skills in loading, transforming, and visualizing various kinds of data.
-
+<br>
+<br>
 I am passionate about lifelong learning and continually strive to develop my skills. I enjoy exploring new technologies, solving complex problems, and applying innovative solutions to real-world challenges. In my free time, you can find me at the gym or walking in the park, as I believe that a healthy body is essential for a healthy and focused mind.
 <br>
 <br>
