@@ -1,7 +1,70 @@
 # Paulina's Portfolio
-These are my portfolio projects presenting my skills in Python and SQL.
 
-# Project 1: PYTHON - VOLCANOES - <a href="https://github.com/paulaloure/Portfolio-Projects/tree/main/Volcanoes" target="_blank">see the project</a>
+Hi there!
+
+Welcome to my portfolio page. My name is Paulina, and I've been working with data since May 2023. However, my journey with data began already during my university studies, where I developed skills in loading, transforming, and visualizing various kinds of data.
+
+I am passionate about lifelong learning and continually strive to develop my skills. I enjoy exploring new technologies, solving complex problems, and applying innovative solutions to real-world challenges. In my free time, you can find me at the gym or walking in the park, as I believe that a healthy body is essential for a healthy and focused mind.
+
+Below, you can find my portfolio projects showcasing my expertise in SQL and Python:
+
+
+
+# Project 1: PYTHON - YOUTUBE API - <a href="https://github.com/paulaloure/Portfolio-Projects/tree/main/Python_API" target="_blank">see the project</a>
+
+This project contains the following steps:\
+
+**PART 1:** Connecting to Youtube API and extracting videos information\
+**PART 2:** Saving channel and video information to excel and loading to the SQL Database
+**PART 3:** Connecting PowerBI Desktop to the SQL database, loading and transforming data in PowerQuery
+**PART 4:** Creating PowerBI Dashboard
+
+
+
+**Libraries used: GoogleAPIClient, Pandas, DateTime, Dotenv**
+
+
+**Main Goal**
+The goal of this project was to download the list of all videos from a youtube channel with their details, and create PowerBI dashboard based on the data. The dashboard would aim to answer below questions:
+ - How many views/subscribes the channel has and how far it is from reaching next benchmark?
+ - Videos posted on which weekdays have most views?
+ - What would be the best video lenght to optimize number of comments and likes?
+ - What are best perofrming videos in terms of views, likes and comments?
+ - What is the viewers engagement? Does higher number of views translates to higher number of likes and comments?
+
+
+**Steps**
+
+
+Data was downloaded from Youtube using Youtube API, from the collections channel, playlistItems and videos. As many pages were returned, the script loops over all of them using page tokens.
+
+I have created a PostgreSQL database to load the videos data, as well as saved them to excel files with timestamps.
+
+As a result, 2 excel files are created (examples can be found in this repository):
+ - Youtube_channel_details - with details regarding the youtube channel:
+    - channel name
+    - channel id
+    - uploads playlist id (playlist containing ids of all uploaded videos)
+    - number of views
+    - number of subscribers
+    - number of videos
+ - Youtube_videos_details - list of all videos posted by channel with their:
+    - titles
+    - published date
+    - published time
+    - duration
+    - views
+    - likes
+    - comments
+
+  Next, I have used PowerBI to connect with the SQL Database and load the data. I have transformed the data using PowerQuery and created the PowerBI dashboard that aimed to answer the above questions. 
+
+
+
+
+
+
+# Project 2: PYTHON - VOLCANOES - <a href="https://github.com/paulaloure/Portfolio-Projects/tree/main/Volcanoes" target="_blank">see the project</a>
 
 
 Project 'Volcanoes' contains the following steps:\
@@ -26,7 +89,7 @@ The goal of this project was to extract, merge and clean the data from wikipedia
 
 
 
-# Project 2: SQL - DVD RENTAL - <a href="https://github.com/paulaloure/Portfolio-Projects/tree/main/SQL%20-%20DVD%20rental" target="_blank">see the project</a>
+# Project 3: SQL - DVD RENTAL - <a href="https://github.com/paulaloure/Portfolio-Projects/tree/main/SQL%20-%20DVD%20rental" target="_blank">see the project</a>
 
 The aim of this project was data manipulation and analysis in PostgreSQL. Dataset used comes from Udemy course 'Become an expert at SQL!' and contains many tables, from which the following were used in this project: address, payment, film, inventory, actor, category. 
 
@@ -50,7 +113,7 @@ Visualisation of the mean spend for the customers with id 1-99:
 
 
 
-# Project 3: PYTHON - Airbnb New York data - <a href="https://github.com/paulaloure/Portfolio-Projects/tree/main/Pyton_AirBNB" target="_blank">see the project</a>
+# Project 4: PYTHON - Airbnb New York data - <a href="https://github.com/paulaloure/Portfolio-Projects/tree/main/Pyton_AirBNB" target="_blank">see the project</a>
 
 This project contains the following steps:\
 **PART 1:** Importing data\
@@ -75,7 +138,7 @@ The goal of this project was to import, review, transform and visualize data reg
 
 
 
-# Project 4: SQL - Shark Attacks  - <a href="https://github.com/paulaloure/Portfolio-Projects/tree/main/SQL%20-%20SharkAttacks" target="_blank">see the project</a>
+# Project 5: SQL - Shark Attacks  - <a href="https://github.com/paulaloure/Portfolio-Projects/tree/main/SQL%20-%20SharkAttacks" target="_blank">see the project</a>
 
 The aim of this project was data cleaning and exploratory analysis in PostgreSQL. I have used the real data regarding shark attacks over the world, analysing among others the attacks caused by various shark species, injuries in various body parts and in many countries 
 
@@ -115,37 +178,3 @@ Based on the analysis we can see that the most attacted body part is leg
 </p>
 
 
-# Project 5: PYTHON - YOUTUBE API - <a href="https://github.com/paulaloure/Portfolio-Projects/tree/main/Python_API" target="_blank">see the project</a>
-
-This project contains the following steps:\
-
-**PART 1:** Connecting to Youtube API and extracting videos information\
-**PART 2:** Saving channel and video information to excel
-
-
-**Libraries used: GoogleAPIClient, Pandas, DateTime, Dotenv**
-
-
-
-The goal of this project was to download the list of all videos from a youtube channel, with their details and export to Excel.
-As a result, 2 excel files are created (examples can be found in this repository):
- - Youtube_channel_details - with details regarding the youtube channel:
-    - channel name
-    - channel id
-    - uploads playlist id (playlist containing ids of all uploaded videos)
-    - number of views
-    - number of subscribers
-    - number of videos
- - Youtube_videos_details - list of all videos posted by channel with their:
-    - titles
-    - published date
-    - published time
-    - duration
-    - views
-    - likes
-    - comments
-
-**The data may be used for further analysis of channel statistics, such as:**
- - video length vs views (to make sure videos of optimal duration are posted)
- - video published day/time vs views (to see how posting date/time impacts views)
- - views vs likes vs comments (how number of views translates into likes or comments so user engagement)
