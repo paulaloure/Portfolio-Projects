@@ -40,30 +40,6 @@ The goal of this project was to download the list of all videos from a youtube c
 ![Dodaj nagłówek (4)](https://github.com/paulaloure/Portfolio-Projects/assets/96730074/a41cd59a-9ad3-47e6-982a-434b5662bc8e)
 
 
-Data was downloaded from Youtube using Youtube API, from the collections channel, playlistItems and videos. As many pages were returned, the script loops over all of them using page tokens.
-
-I have created a PostgreSQL database to load the videos data, as well as saved them to excel files with timestamps.
-
-
-2 excel files are created (examples can be found in this repository):
- - Youtube_channel_details - with details regarding the youtube channel:
-    - channel name
-    - channel id
-    - uploads playlist id (playlist containing ids of all uploaded videos)
-    - number of views
-    - number of subscribers
-    - number of videos
- - Youtube_videos_details - list of all videos posted by channel with their:
-    - titles
-    - published date
-    - published time
-    - duration
-    - views
-    - likes
-    - comments
-
-  Next, I have used PowerBI to connect with the SQL Database and load the data. I have transformed the data using PowerQuery and created the PowerBI dashboard that aimed to answer the above questions. 
-
 **Results** 
 
 As a result, the below PowerBI dashboad was created. The .pbix file can also be found in the project folder.
