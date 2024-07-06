@@ -1,4 +1,4 @@
-# Project 1: PYTHON - VOLCANOES
+# Project 2: PYTHON - VOLCANOES
 
 Project 'Volcanoes' contains the following steps:\
 **PART 1:** Data extracting from wikipedia\

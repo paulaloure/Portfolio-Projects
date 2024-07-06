@@ -1,4 +1,4 @@
-# Project 2: SQL - DVD RENTAL
+# Project 3: SQL - DVD RENTAL
 
 The aim of this project was data manipulation and analysis in PostgreSQL. Dataset used comes from Udemy course 'Become an expert at SQL!' and contains many tables, from which the following were used in this project: address, payment, film, inventory, actor, category. 
 
